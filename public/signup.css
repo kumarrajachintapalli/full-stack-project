@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://cdn.shopify.com/app-store/listing_images/119e46d40447b213e034117eaa5a9382/promotional_image/COWIj4vg2foCEAE=.jpeg?height=720&quality=90&width=1280");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 8%;
+    margin-left: 12%;
+    box-shadow: 10px 10px lightblue;
+}
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    filter: drop-shadow(10px 8px 6px);
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-group .form-group {
+    width: 48%; 
+}
+

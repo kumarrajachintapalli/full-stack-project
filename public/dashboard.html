@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Music Play</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand " ><img src="https://m.media-amazon.com/images/I/61A9beAgyIL.png" alt="musicplayer">Music Play</li>
+            
+            <li><a href=about.html>About</a></li>
+            <div class="logout">
+                <a href="loginpage.html"><button id="logout">Log Out</button></a>
+            </div>
+        </ul>
+    </nav>
+        <div class="searchdiv">
+            <div class="searchbox">
+            <input type="text" id="searchInput"  name="" placeholder="Search for music...">
+            <i class="material-icons" style="margin-top: 2px; margin-right:2px; font-size:40px;">search</i>
+            </div>
+            <button type="submit" onclick="searchMusic()">Search</button>
+    </div>
+    <div id="musicResults">
+
+    </div>
+    <div class="box">
+    <div class="language"><h2>Select language to listen</h2></div>
+    <a href="telugu.html"><div class="telugu"><button id="tel">Telugu</button></div></a>
+    <a href="english.html"><div class="english"><button id="eng">English</button></div></a>
+    <a href="hindi.html"><div class="hindi"><button id="hin">Hindi</button></div></a>
+    </div>
+    
+    </body>
+    <script src="smusic.js"></script>
+</html>
